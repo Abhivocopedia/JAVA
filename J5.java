@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 public class J5{
     public static void main(String[] args) throws Exception{
-        BufferedReader br = new BufferedReader(new FileReader("int.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("in1.txt"));
         int num1 = Integer.parseInt(br.readLine());
         int num2 = Integer.parseInt(br.readLine());
 
